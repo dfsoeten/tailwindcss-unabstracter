@@ -1,0 +1,21 @@
+{
+    "name": "dfsoeten/tailwindcss-unabstracter",
+    "autoload": {
+        "psr-4": {
+            "DFSoeten\\TailwindcssUnabstracter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daan",
+            "email": "daan@positivedigits.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^6.1",
+        "symfony/finder": "^6.1",
+        "scssphp/scssphp": "^1.11",
+        "twig/twig": "^3.4",
+        "paquettg/php-html-parser": "^3.1"
+    }
+}
