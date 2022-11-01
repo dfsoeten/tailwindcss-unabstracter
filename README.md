@@ -3,7 +3,7 @@ If you're like me and didn't read Tailwind's documentation about [premature abst
 This tool hopefully makes the process of un-abstracting your Tailwind CSS classes a little less painful and time-consuming.
 
 ## Features
-- Is able to follow SCSS `@extend` directives
+- Is able to follow [SASS `@extend`](https://sass-lang.com/documentation/at-rules/extend) directives
 - Interactive by default
 
 ## Usage
