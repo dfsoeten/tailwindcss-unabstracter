@@ -87,7 +87,11 @@ class TailwindUnabstracter
 
             foreach ($htmlFiles as $htmlFile) {
                 foreach (file($htmlFile->getRealPath()) as $lineNumber => $line) {
-                    if (str_contains($line, 'class') && str_contains($line, $selector)) {
+                    if (
+                        $tailwindClasses &&
+                        (str_contains($line, 'class') || str_contains($line, 'Class')) &&
+                        str_contains($line, $selector)
+                    ) {
                         yield [
                             'selector' => $selector,
                             'tailwindClasses' => $tailwindClasses,
