@@ -190,7 +190,7 @@ class TailwindUnabstracter
     ): void
     {
         $file = file($realPath);
-        $file[$lineNumber] = str_replace($selector, $tailwindClasses, $line);
+        $file[$lineNumber] = preg_replace('/' . $selector . '/', $tailwindClasses, $line, 1);
         file_put_contents($realPath, implode($file));
     }
 
