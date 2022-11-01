@@ -44,4 +44,4 @@ This tool is hacked together rapidly, I'm open for pull requests.
 
 Some ideas:
 - Ability to replace selectors only inside of `class` attributes in source files
-- Auto replace custom css with [Tailwind CSS arbitrary values](https://tailwindcss.com/docs/adding-custom-styles#using-arbitrary-values)
+- Auto replace custom CSS with [Tailwind CSS arbitrary values](https://tailwindcss.com/docs/adding-custom-styles#using-arbitrary-values)
